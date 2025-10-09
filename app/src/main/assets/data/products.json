@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "id": 1, "name": "Coca Cola 2LT", "price": 10, "image": "images/products/coca_cola_2lt.png", "categoryId": 1 },
+    { "id": 2, "name": "Mendocina", "price": 10, "image": "images/products/mendocina.png", "categoryId": 1 },
+    { "id": 3, "name": "Simba 2LT", "price": 14, "image": "images/products/simba_2lt.png", "categoryId": 1 },
+    { "id": 4, "name": "Fanta 2LT", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
+
+    { "id": 5, "name": "Zanahoria", "price": 3, "image": "images/products/zanahoria.png", "categoryId": 3 },
+    { "id": 6, "name": "Espinaca", "price": 7, "image": "images/products/espinaca.png", "categoryId": 3 },
+    { "id": 7, "name": "Lechuga", "price": 3, "image": "images/products/lechuga.png", "categoryId": 3 },
+    { "id": 8, "name": "Tomate", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 }
+  ]
+}
+
