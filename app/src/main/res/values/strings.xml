@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DoorMarket</string>
+
+    <!-- Screen Titles -->
+    <string name="screen_home">DoorMarket</string>
+    <string name="screen_categories">Categorías</string>
+    <string name="screen_promotions">Promociones</string>
+    <string name="screen_orders">Pedidos</string>
+    <string name="screen_profile">Perfil</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_promotions">Promociones</string>
+    <string name="nav_orders">Pedidos</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home Screen -->
+    <string name="search_hint">Search</string>
+    <string name="categories_title">Categorías</string>
+    <string name="last_orders_title">Últimos Pedidos</string>
+    <string name="popular_title">Populares</string>
+
+    <!-- Buttons -->
+    <string name="see_products">Ver Productos</string>
+    <string name="see_product">Ver Producto</string>
+    <string name="repeat">Repetir</string>
+    <string name="add_to_cart">Agregar</string>
+
+    <!-- Common -->
+    <string name="total">Total</string>
+    <string name="error_loading">Error al cargar datos</string>
+    <string name="retry">Reintentar</string>
+
+
+</resources>
