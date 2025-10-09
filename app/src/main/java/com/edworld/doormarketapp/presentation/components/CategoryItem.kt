@@ -3,7 +3,7 @@ package com.edworld.doormarketapp.presentation.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -30,11 +30,11 @@ fun CategoryItem(
             .clickable(onClick = onClick),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Icono circular con imagen
+        // Icono con fondo cuadrado redondeado
         Box(
             modifier = Modifier
                 .size(65.dp)
-                .clip(CircleShape)
+                .clip(RoundedCornerShape(12.dp))
                 .background(Color(0xFFF5F5F5)),
             contentAlignment = Alignment.Center
         ) {
@@ -42,8 +42,7 @@ fun CategoryItem(
                 model = category.imageUrl,
                 contentDescription = category.name,
                 modifier = Modifier
-                    .size(65.dp)
-                    .clip(CircleShape),
+                    .size(50.dp),
                 contentScale = ContentScale.Fit
             )
         }
