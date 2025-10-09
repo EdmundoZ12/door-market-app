@@ -30,7 +30,7 @@ fun getBottomNavItems(): List<BottomNavItem> {
         BottomNavItem(
             route = Screen.Orders.route,
             title = "Pedidos",
-            icon = Icons.Default.ShoppingCart
+            icon = Icons.Default.Receipt
         ),
         BottomNavItem(
             route = Screen.Profile.route,

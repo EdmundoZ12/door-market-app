@@ -15,6 +15,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.edworld.doormarketapp.R
 import com.edworld.doormarketapp.presentation.components.BannerCarousel
 import com.edworld.doormarketapp.presentation.components.CategoriesSection
+import com.edworld.doormarketapp.presentation.components.LastOrdersSection
 import com.edworld.doormarketapp.presentation.components.TopBar
 
 @Composable
@@ -39,6 +40,23 @@ fun HomeScreen(
             ) {
                 CircularProgressIndicator()
             }
+        } else if (state.error != null) {
+            Box(
+                modifier = Modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(text = "Error: ${state.error}")
+                    Spacer(modifier = Modifier.height(16.dp))
+                    androidx.compose.material3.Button(
+                        onClick = { viewModel.retry() }
+                    ) {
+                        Text("Reintentar")
+                    }
+                }
+            }
         } else {
             LazyColumn(
                 modifier = Modifier.fillMaxSize()
@@ -60,13 +78,27 @@ fun HomeScreen(
                     CategoriesSection(
                         categories = state.categories,
                         onCategoryClick = { category ->
-                            // TODO: Navegar a la pantalla de categoría
-                            println("Categoría seleccionada: ${category.name}")
+                            viewModel.onCategoryClick(category)
                         }
                     )
                 }
 
-                // Espacio para próximas secciones
+                // Sección de Últimos Pedidos
+                if (state.lastOrders.isNotEmpty()) {
+                    item {
+                        LastOrdersSection(
+                            orders = state.lastOrders,
+                            onViewProducts = { order ->
+                                viewModel.onViewProducts(order)
+                            },
+                            onRepeatOrder = { order ->
+                                viewModel.onRepeatOrder(order)
+                            }
+                        )
+                    }
+                }
+
+                // Espacio al final
                 item {
                     Spacer(modifier = Modifier.height(100.dp))
                 }

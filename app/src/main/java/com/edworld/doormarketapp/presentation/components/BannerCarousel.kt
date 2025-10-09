@@ -64,7 +64,7 @@ fun BannerCarousel(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(horizontal = 16.dp),
-                pageSpacing = 0.dp
+                pageSpacing = 12.dp
             ) { page ->
                 Card(
                     modifier = Modifier

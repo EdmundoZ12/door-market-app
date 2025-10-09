@@ -1,0 +1,78 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "ORD-001",
+      "date": "2025-01-15T10:30:00",
+      "status": "delivered",
+      "total": 150.00,
+      "items": [
+        {
+          "productId": 4,
+          "productName": "Papa",
+          "quantity": 3,
+          "price": 8.50,
+          "image": "images/products/papa.png"
+        },
+        {
+          "productId": 5,
+          "productName": "Cebolla",
+          "quantity": 2,
+          "price": 6.00,
+          "image": "images/products/cebolla.png"
+        },
+        {
+          "productId": 1,
+          "productName": "Coca Cola 2LT",
+          "quantity": 1,
+          "price": 20.00,
+          "image": "images/products/coca_cola_2lt.png"
+        },
+        {
+          "productId": 2,
+          "productName": "Carne de Res",
+          "quantity": 2,
+          "price": 20.00,
+          "image": "images/products/carne_res.png"
+        },
+        {
+          "productId": 3,
+          "productName": "Cerveza Paceña",
+          "quantity": 3,
+          "price": 20.00,
+          "image": "images/products/cerveza_pacena.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderNumber": "ORD-002",
+      "date": "2025-01-14T15:45:00",
+      "status": "delivered",
+      "total": 150.00,
+      "items": [
+        {
+          "productId": 4,
+          "productName": "Papa",
+          "quantity": 5,
+          "price": 8.50,
+          "image": "images/products/papa.png"
+        },
+        {
+          "productId": 5,
+          "productName": "Cebolla",
+          "quantity": 3,
+          "price": 6.00,
+          "image": "images/products/cebolla.png"
+        },
+        {
+          "productId": 1,
+          "productName": "Coca Cola 2LT",
+          "quantity": 2,
+          "price": 20.00,
+          "image": "images/products/coca_cola_2lt.png"
+        }
+      ]
+    }
+  ]
+}
