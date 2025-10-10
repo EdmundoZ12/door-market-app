@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca Cola 2LT",
+      "price": 10,
+      "image": "images/products/bebidas/coca_cola_2lt.png",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mendocina",
+      "price": 10,
+      "image": "images/products/bebidas/mendocina.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Simba 2LT",
+      "price": 14,
+      "image": "images/products/bebidas/simba_2lt.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Fanta 2LT",
+      "price": 13,
+      "image": "images/products/bebidas/fanta_2lt.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Powerade",
+      "price": 13,
+      "image": "images/products/bebidas/powerade.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Monster",
+      "price": 13,
+      "image": "images/products/bebidas/monster.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "name": "Redbull",
+      "price": 13,
+      "image": "images/products/bebidas/redbull.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Pepsi 2LT",
+      "price": 13,
+      "image": "images/products/bebidas/pepsi_2lt.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 17,
+      "name": "Carne de Res 1Kg",
+      "price": 76,
+      "image": "images/products/carne_res.png",
+      "categoryId": 2
+    },
+    {
+      "id": 9,
+      "name": "Zanahoria",
+      "price": 3,
+      "image": "images/products/zanahoria.png",
+      "categoryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Espinaca",
+      "price": 7,
+      "image": "images/products/espinaca.png",
+      "categoryId": 3
+    },
+    {
+      "id": 11,
+      "name": "Lechuga",
+      "price": 3,
+      "image": "images/products/lechuga.png",
+      "categoryId": 3
+    },
+    {
+      "id": 12,
+      "name": "Tomate",
+      "price": 4,
+      "image": "images/products/tomate.png",
+      "categoryId": 3
+    },
+    {
+      "id": 13,
+      "name": "Acelga",
+      "price": 4,
+      "image": "images/products/acelga.png",
+      "categoryId": 3
+    },
+    {
+      "id": 14,
+      "name": "Remolacha",
+      "price": 4,
+      "image": "images/products/remolacha.png",
+      "categoryId": 3
+    },
+    {
+      "id": 15,
+      "name": "Cebolla",
+      "price": 4,
+      "image": "images/products/cebolla.png",
+      "categoryId": 3
+    },
+    {
+      "id": 16,
+      "name": "Papa",
+      "price": 4,
+      "image": "images/products/papa.png",
+      "categoryId": 3
+    }
+  ]
+}
