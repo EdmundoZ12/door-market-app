@@ -1,24 +1,24 @@
 {
   "products": [
-    { "id": 1, "name": "Coca Cola 2LT", "price": 10, "image": "images/products/coca_cola_2lt.png", "categoryId": 1 },
-    { "id": 2, "name": "Mendocina", "price": 10, "image": "images/products/mendocina.png", "categoryId": 1 },
-    { "id": 3, "name": "Simba 2LT", "price": 14, "image": "images/products/simba_2lt.png", "categoryId": 1 },
-    { "id": 4, "name": "Fanta 2LT", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
-    { "id": 5, "name": "Powerade", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
-    { "id": 6, "name": "Monster", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
-    { "id": 7, "name": "Redbull", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
-    { "id": 8, "name": "Pepsi 2LT", "price": 13, "image": "images/products/fanta_2lt.png", "categoryId": 1 },
+    { "id": 1, "name": "Coca Cola 2LT", "price": 10, "image": "images/products/coca_cola_2lt.png", "image2": "images/products/coca_cola_2lt2.png", "description": "Coca Cola de 2 litros, bebida refrescante y deliciosa para disfrutar en cualquier momento.", "categoryId": 1 },
+    { "id": 2, "name": "Mendocina", "price": 10, "image": "images/products/mendocina.png", "image2": "images/products/mendocina.png", "description": "Agua mineral Mendocina, pura y natural directamente de las montañas.", "categoryId": 1 },
+    { "id": 3, "name": "Simba 2LT", "price": 14, "image": "images/products/simba_2lt.png", "image2": "images/products/simba_2lt.png", "description": "Simba de 2 litros, sabor frutal refrescante ideal para toda la familia.", "categoryId": 1 },
+    { "id": 4, "name": "Fanta 2LT", "price": 13, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Fanta de 2 litros, sabor a naranja intenso y refrescante.", "categoryId": 1 },
+    { "id": 5, "name": "Powerade", "price": 13, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Bebida deportiva Powerade, perfecta para rehidratarte después del ejercicio.", "categoryId": 1 },
+    { "id": 6, "name": "Monster", "price": 13, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Monster Energy, bebida energética para mantenerte activo todo el día.", "categoryId": 1 },
+    { "id": 7, "name": "Redbull", "price": 13, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Red Bull te da alas, bebida energética premium para tu máximo rendimiento.", "categoryId": 1 },
+    { "id": 8, "name": "Pepsi 2LT", "price": 13, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Pepsi de 2 litros, el sabor clásico que refresca tu día.", "categoryId": 1 },
 
-    { "id": 17, "name": "Carne de Res 1Kg", "price": 76, "image": "images/products/fanta_2lt.png", "categoryId": 2 },
+    { "id": 17, "name": "Carne de Res 1Kg", "price": 76, "image": "images/products/fanta_2lt.png", "image2": "images/products/fanta_2lt.png", "description": "Carne de res de primera calidad, 1 kilogramo de corte fresco.", "categoryId": 2 },
 
-    { "id": 9, "name": "Zanahoria", "price": 3, "image": "images/products/zanahoria.png", "categoryId": 3 },
-    { "id": 10, "name": "Espinaca", "price": 7, "image": "images/products/espinaca.png", "categoryId": 3 },
-    { "id": 11, "name": "Lechuga", "price": 3, "image": "images/products/lechuga.png", "categoryId": 3 },
-    { "id": 12, "name": "Tomate", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 },
-    { "id": 13, "name": "Acelga", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 },
-    { "id": 14, "name": "Remolacha", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 },
-    { "id": 15, "name": "Cebolla", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 },
-    { "id": 16, "name": "Papa", "price": 4, "image": "images/products/tomate.png", "categoryId": 3 }
+    { "id": 9, "name": "Zanahoria", "price": 3, "image": "images/products/zanahoria.png", "image2": "images/products/zanahoria.png", "description": "Zanahorias frescas y crujientes, ricas en vitaminas y perfectas para ensaladas.", "categoryId": 3 },
+    { "id": 10, "name": "Espinaca", "price": 7, "image": "images/products/espinaca.png", "image2": "images/products/espinaca.png", "description": "Espinacas frescas, llenas de hierro y nutrientes esenciales para tu salud.", "categoryId": 3 },
+    { "id": 11, "name": "Lechuga", "price": 3, "image": "images/products/lechuga.png", "image2": "images/products/lechuga.png", "description": "Lechuga fresca y crujiente, ideal para ensaladas saludables.", "categoryId": 3 },
+    { "id": 12, "name": "Tomate", "price": 4, "image": "images/products/tomate.png", "image2": "images/products/tomate.png", "description": "Tomates rojos y jugosos, perfectos para salsas y ensaladas.", "categoryId": 3 },
+    { "id": 13, "name": "Acelga", "price": 4, "image": "images/products/tomate.png", "image2": "images/products/tomate.png", "description": "Acelga fresca, vegetal nutritivo ideal para guisos y sopas.", "categoryId": 3 },
+    { "id": 14, "name": "Remolacha", "price": 4, "image": "images/products/tomate.png", "image2": "images/products/tomate.png", "description": "Remolachas frescas, dulces y llenas de antioxidantes naturales.", "categoryId": 3 },
+    { "id": 15, "name": "Cebolla", "price": 4, "image": "images/products/tomate.png", "image2": "images/products/tomate.png", "description": "Cebollas frescas, ingrediente esencial para dar sabor a tus comidas.", "categoryId": 3 },
+    { "id": 16, "name": "Papa", "price": 4, "image": "images/products/tomate.png", "image2": "images/products/tomate.png", "description": "Papas frescas de la mejor calidad, versátiles para cualquier preparación.", "categoryId": 3 }
   ]
 }
 

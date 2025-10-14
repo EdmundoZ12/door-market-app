@@ -15,10 +15,12 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.edworld.doormarketapp.data.model.Product
 import com.edworld.doormarketapp.presentation.categories.CategoriesScreen
 import com.edworld.doormarketapp.presentation.home.HomeScreen
 import com.edworld.doormarketapp.presentation.navigation.getBottomNavItems
 import com.edworld.doormarketapp.presentation.orders.OrdersScreen
+import com.edworld.doormarketapp.presentation.productdetail.ProductDetailScreen
 import com.edworld.doormarketapp.presentation.profile.ProfileScreen
 import com.edworld.doormarketapp.presentation.promotions.PromotionsScreen
 import kotlinx.coroutines.launch
@@ -46,6 +48,29 @@ fun MainScreen() {
         pageCount = { bottomNavItems.size }
     )
     val scope = rememberCoroutineScope()
+    
+    // Estado para navegación a detalle de producto
+    var selectedProduct by remember { mutableStateOf<Product?>(null) }
+    var selectedCategoryName by remember { mutableStateOf("Categoría") }
+
+    // Si hay un producto seleccionado, mostrar la pantalla de detalle
+    if (selectedProduct != null) {
+        ProductDetailScreen(
+            product = selectedProduct!!,
+            categoryName = selectedCategoryName,
+            onBack = { selectedProduct = null },
+            onAddToCart = { quantity ->
+                // TODO: Implementar agregar al carrito
+                selectedProduct = null
+            },
+            onNavigateToPage = { pageIndex ->
+                scope.launch {
+                    pagerState.animateScrollToPage(pageIndex)
+                }
+            }
+        )
+        return
+    }
 
     Scaffold(
         containerColor = Color.White,
@@ -107,7 +132,12 @@ fun MainScreen() {
         ) { page ->
             when (page) {
                 0 -> HomeScreen()
-                1 -> CategoriesScreen()
+                1 -> CategoriesScreen(
+                    onProductClick = { product, categoryName ->
+                        selectedProduct = product
+                        selectedCategoryName = categoryName
+                    }
+                )
                 2 -> PromotionsScreen()
                 3 -> OrdersScreen()
                 4 -> ProfileScreen()
