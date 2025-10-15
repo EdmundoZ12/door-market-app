@@ -21,7 +21,9 @@ import com.edworld.doormarketapp.service.CategoryService
 import com.edworld.doormarketapp.service.ProductService
 
 @Composable
-fun CategoriesScreen() {
+fun CategoriesScreen(
+    onProductClick: (Product, String) -> Unit = { _, _ -> }
+) {
     val context = LocalContext.current
 
     var categories by remember { mutableStateOf<List<Category>>(emptyList()) }
@@ -90,12 +92,13 @@ fun CategoriesScreen() {
                         val category = categories[index]
                         val productsForCategory = products.filter { it.categoryId == category.id }
                         if (productsForCategory.isNotEmpty()) {
+                            val catName = category.name
                             CategoryProductsSection(
-                                categoryName = category.name,
+                                categoryName = catName,
                                 categoryImagePath = category.image,
                                 products = productsForCategory,
-                                onAddToCart = { /* TODO: Integrar carrito */ },
-                                onProductClick = { /* TODO: Navegar a detalle */ }
+                                onAddToCart = { _: Product -> /* TODO: Integrar carrito */ },
+                                onProductClick = { product: Product -> onProductClick(product, catName) }
                             )
                         }
                     }

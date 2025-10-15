@@ -5,252 +5,288 @@
       "name": "Coca Cola 2LT",
       "price": 10,
       "image": "images/products/coca_cola_2lt.png",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Refresco gaseoso Coca Cola de 2 litros, ideal para compartir."
     },
     {
       "id": 2,
       "name": "Mendocina",
       "price": 10,
       "image": "images/products/mendocina.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Gaseosa Mendocina de sabor tradicional, presentación de 2 litros."
     },
     {
       "id": 3,
       "name": "Simba 2LT",
       "price": 14,
       "image": "images/products/simba_2lt.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Bebida gaseosa Simba de 2 litros, sabor refrescante."
     },
     {
       "id": 4,
       "name": "Fanta 2LT",
       "price": 13,
       "image": "images/products/fanta_2lt.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Refresco Fanta sabor naranja en botella de 2 litros."
     },
     {
       "id": 5,
       "name": "Powerade",
       "price": 13,
       "image": "images/products/poweride.JPG",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Bebida isotónica Powerade, ideal para rehidratarse después del ejercicio."
     },
     {
       "id": 6,
       "name": "Monster",
       "price": 13,
       "image": "images/products/monster.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Bebida energética Monster para un impulso extra de energía."
     },
     {
       "id": 7,
       "name": "Redbull",
       "price": 13,
       "image": "images/products/red_bull.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Bebida energética Red Bull que revitaliza cuerpo y mente."
     },
     {
       "id": 8,
       "name": "Pepsi 2LT",
       "price": 13,
       "image": "images/products/pepsi_2lts.jpg",
-      "categoryId": 1
+      "categoryId": 1,
+      "description": "Gaseosa Pepsi de 2 litros con su clásico sabor cola."
     },
     {
       "id": 17,
       "name": "Camaron",
       "price": 76,
       "image": "images/products/camaron.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Camarones frescos, perfectos para parrillas o platos de mariscos."
     },
     {
       "id": 18,
       "name": "Chorizo parrilero",
       "price": 36,
       "image": "images/products/chorizo parrilero.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Chorizos parrilleros listos para asar, jugosos y sabrosos."
     },
     {
       "id": 19,
       "name": "Costilla",
       "price": 30,
       "image": "images/products/costilla.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Costilla de res fresca, ideal para la parrilla o el horno."
     },
     {
       "id": 20,
       "name": "Pollo",
       "price": 22,
       "image": "images/products/pollo.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Pollo fresco de granja, listo para cocinar en tus comidas favoritas."
     },
     {
       "id": 21,
       "name": "Pescado",
       "price": 40,
       "image": "images/products/pescado.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Filete de pescado fresco, perfecto para freír o preparar al vapor."
     },
     {
       "id": 22,
       "name": "Mariscos",
       "price": 44,
       "image": "images/products/surtido de mariscos.jpg",
-      "categoryId": 2
+      "categoryId": 2,
+      "description": "Surtido de mariscos variados para preparar paellas o sopas."
     },
     {
       "id": 9,
       "name": "Zanahoria",
       "price": 3,
       "image": "images/products/zanahoria.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Zanahorias frescas, ricas en vitamina A y perfectas para ensaladas."
     },
     {
       "id": 10,
       "name": "Espinaca",
       "price": 7,
       "image": "images/products/espinaca.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Hojas de espinaca frescas, ideales para sopas, ensaladas y guisos."
     },
     {
       "id": 11,
       "name": "Lechuga",
       "price": 3,
       "image": "images/products/lechuga.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Lechuga verde fresca, crujiente y lista para tus ensaladas."
     },
     {
       "id": 12,
       "name": "Tomate",
       "price": 4,
       "image": "images/products/tomate.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Tomates maduros y jugosos, perfectos para salsas o ensaladas."
     },
     {
       "id": 13,
       "name": "Acelga",
       "price": 4,
       "image": "images/products/acelga.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Hojas de acelga frescas, ricas en hierro y vitaminas."
     },
     {
       "id": 14,
       "name": "Remolacha",
       "price": 4,
       "image": "images/products/remolacha.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Remolachas frescas, dulces y nutritivas para ensaladas o jugos."
     },
     {
       "id": 15,
       "name": "Cebolla",
       "price": 4,
       "image": "images/products/cebolla.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Cebollas frescas de sabor intenso, base para múltiples platos."
     },
     {
       "id": 16,
       "name": "Papa",
       "price": 4,
       "image": "images/products/papa.jpg",
-      "categoryId": 3
+      "categoryId": 3,
+      "description": "Papas frescas, versátiles para freír, hervir o preparar al horno."
     },
     {
       "id": 23,
       "name": "Aji nomoto",
       "price": 10,
       "image": "images/products/ajinomoto.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Condimento Aji-No-Moto para realzar el sabor de tus comidas."
     },
     {
       "id": 24,
-      "name": "ketchup",
+      "name": "Ketchup",
       "price": 30,
       "image": "images/products/ketchup.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Salsa ketchup clásica para acompañar tus comidas favoritas."
     },
     {
       "id": 25,
       "name": "Locoto",
       "price": 10,
       "image": "images/products/locoto.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Locoto fresco picante, ideal para salsas tradicionales."
     },
     {
       "id": 26,
       "name": "Mayonesa",
       "price": 30,
       "image": "images/products/mayoneza.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Mayonesa cremosa para acompañar sándwiches o ensaladas."
     },
     {
       "id": 27,
       "name": "Mostaza",
       "price": 30,
       "image": "images/products/mostaza.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Salsa de mostaza con sabor intenso, ideal para carnes y sándwiches."
     },
     {
       "id": 28,
       "name": "Pimienta",
       "price": 10,
       "image": "images/products/pimienta.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Pimienta negra molida para dar aroma y sabor a tus comidas."
     },
     {
       "id": 29,
       "name": "Salsa soya",
       "price": 21,
       "image": "images/products/salsa soya.jpg",
-      "categoryId": 5
+      "categoryId": 5,
+      "description": "Salsa de soya ideal para sazonar comidas orientales."
     },
     {
       "id": 30,
       "name": "Afeitador",
       "price": 8,
       "image": "images/products/limpieza/afeitador.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Afeitador de alta precisión para un afeitado limpio y cómodo."
     },
     {
       "id": 31,
       "name": "Ambientador",
       "price": 27,
       "image": "images/products/limpieza/ambientador.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Ambientador con fragancia fresca para mantener el hogar perfumado."
     },
     {
       "id": 32,
       "name": "Cepillo de dientes",
       "price": 8,
       "image": "images/products/limpieza/cepillo.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Cepillo dental de cerdas suaves para una limpieza completa."
     },
     {
       "id": 33,
       "name": "Escoba",
       "price": 33,
       "image": "images/products/limpieza/escoba.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Escoba resistente ideal para limpieza de pisos interiores."
     },
     {
       "id": 34,
       "name": "Jaboncillo",
       "price": 21,
       "image": "images/products/limpieza/jaboncillo.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Jaboncillo perfumado para el cuidado diario de la piel."
     },
     {
       "id": 35,
       "name": "Lavandina",
       "price": 21,
       "image": "images/products/limpieza/lavandina.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Lavandina desinfectante para limpieza profunda del hogar."
     },
     {
       "id": 36,
       "name": "Deterjente",
       "price": 21,
       "image": "images/products/limpieza/patito.jpg",
-      "categoryId": 4
+      "categoryId": 4,
+      "description": "Detergente líquido para ropa con poder limpiador y aroma fresco."
     }
   ]
 }
