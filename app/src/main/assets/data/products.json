@@ -5,6 +5,7 @@
       "name": "Coca Cola 2LT",
       "price": 10,
       "image": "images/products/coca_cola_2lt.png",
+      "image2": "images/products/coca_cola_2lt.png",
       "categoryId": 1,
       "description": "Refresco gaseoso Coca Cola de 2 litros, ideal para compartir."
     },
@@ -13,6 +14,7 @@
       "name": "Mendocina",
       "price": 10,
       "image": "images/products/mendocina.jpg",
+      "image2": "images/products/mendocina.jpg",
       "categoryId": 1,
       "description": "Gaseosa Mendocina de sabor tradicional, presentación de 2 litros."
     },
@@ -21,6 +23,7 @@
       "name": "Simba 2LT",
       "price": 14,
       "image": "images/products/simba_2lt.jpg",
+      "image2": "images/products/simba_2lt.jpg",
       "categoryId": 1,
       "description": "Bebida gaseosa Simba de 2 litros, sabor refrescante."
     },
@@ -29,6 +32,7 @@
       "name": "Fanta 2LT",
       "price": 13,
       "image": "images/products/fanta_2lt.jpg",
+      "image2": "images/products/fanta_2lt.jpg",
       "categoryId": 1,
       "description": "Refresco Fanta sabor naranja en botella de 2 litros."
     },
@@ -37,6 +41,7 @@
       "name": "Powerade",
       "price": 13,
       "image": "images/products/poweride.JPG",
+      "image2": "images/products/poweride.JPG",
       "categoryId": 1,
       "description": "Bebida isotónica Powerade, ideal para rehidratarse después del ejercicio."
     },
@@ -45,6 +50,7 @@
       "name": "Monster",
       "price": 13,
       "image": "images/products/monster.jpg",
+      "image2": "images/products/monster.jpg",
       "categoryId": 1,
       "description": "Bebida energética Monster para un impulso extra de energía."
     },
@@ -53,6 +59,7 @@
       "name": "Redbull",
       "price": 13,
       "image": "images/products/red_bull.jpg",
+      "image2": "images/products/red_bull.jpg",
       "categoryId": 1,
       "description": "Bebida energética Red Bull que revitaliza cuerpo y mente."
     },
@@ -61,6 +68,7 @@
       "name": "Pepsi 2LT",
       "price": 13,
       "image": "images/products/pepsi_2lts.jpg",
+      "image2": "images/products/pepsi_2lts.jpg",
       "categoryId": 1,
       "description": "Gaseosa Pepsi de 2 litros con su clásico sabor cola."
     },
@@ -69,6 +77,7 @@
       "name": "Camaron",
       "price": 76,
       "image": "images/products/camaron.jpg",
+      "image2": "images/products/camaron.jpg",
       "categoryId": 2,
       "description": "Camarones frescos, perfectos para parrillas o platos de mariscos."
     },
@@ -77,6 +86,7 @@
       "name": "Chorizo parrilero",
       "price": 36,
       "image": "images/products/chorizo parrilero.jpg",
+      "image2": "images/products/chorizo parrilero.jpg",
       "categoryId": 2,
       "description": "Chorizos parrilleros listos para asar, jugosos y sabrosos."
     },
@@ -85,6 +95,7 @@
       "name": "Costilla",
       "price": 30,
       "image": "images/products/costilla.jpg",
+      "image2": "images/products/costilla.jpg",
       "categoryId": 2,
       "description": "Costilla de res fresca, ideal para la parrilla o el horno."
     },
@@ -93,6 +104,7 @@
       "name": "Pollo",
       "price": 22,
       "image": "images/products/pollo.jpg",
+      "image2": "images/products/pollo.jpg",
       "categoryId": 2,
       "description": "Pollo fresco de granja, listo para cocinar en tus comidas favoritas."
     },
@@ -101,6 +113,7 @@
       "name": "Pescado",
       "price": 40,
       "image": "images/products/pescado.jpg",
+      "image2": "images/products/pescado.jpg",
       "categoryId": 2,
       "description": "Filete de pescado fresco, perfecto para freír o preparar al vapor."
     },
@@ -109,6 +122,7 @@
       "name": "Mariscos",
       "price": 44,
       "image": "images/products/surtido de mariscos.jpg",
+      "image2": "images/products/surtido de mariscos.jpg",
       "categoryId": 2,
       "description": "Surtido de mariscos variados para preparar paellas o sopas."
     },
@@ -117,6 +131,7 @@
       "name": "Zanahoria",
       "price": 3,
       "image": "images/products/zanahoria.jpg",
+      "image2": "images/products/zanahoria.jpg",
       "categoryId": 3,
       "description": "Zanahorias frescas, ricas en vitamina A y perfectas para ensaladas."
     },
@@ -125,6 +140,7 @@
       "name": "Espinaca",
       "price": 7,
       "image": "images/products/espinaca.jpg",
+      "image2": "images/products/espinaca.jpg",
       "categoryId": 3,
       "description": "Hojas de espinaca frescas, ideales para sopas, ensaladas y guisos."
     },
@@ -133,6 +149,7 @@
       "name": "Lechuga",
       "price": 3,
       "image": "images/products/lechuga.jpg",
+      "image2": "images/products/lechuga.jpg",
       "categoryId": 3,
       "description": "Lechuga verde fresca, crujiente y lista para tus ensaladas."
     },
@@ -141,6 +158,7 @@
       "name": "Tomate",
       "price": 4,
       "image": "images/products/tomate.jpg",
+      "image2": "images/products/tomate.jpg",
       "categoryId": 3,
       "description": "Tomates maduros y jugosos, perfectos para salsas o ensaladas."
     },
@@ -149,6 +167,7 @@
       "name": "Acelga",
       "price": 4,
       "image": "images/products/acelga.jpg",
+      "image2": "images/products/acelga.jpg",
       "categoryId": 3,
       "description": "Hojas de acelga frescas, ricas en hierro y vitaminas."
     },
@@ -157,6 +176,7 @@
       "name": "Remolacha",
       "price": 4,
       "image": "images/products/remolacha.jpg",
+      "image2": "images/products/remolacha.jpg",
       "categoryId": 3,
       "description": "Remolachas frescas, dulces y nutritivas para ensaladas o jugos."
     },
@@ -165,6 +185,7 @@
       "name": "Cebolla",
       "price": 4,
       "image": "images/products/cebolla.jpg",
+      "image2": "images/products/cebolla.jpg",
       "categoryId": 3,
       "description": "Cebollas frescas de sabor intenso, base para múltiples platos."
     },
@@ -173,6 +194,7 @@
       "name": "Papa",
       "price": 4,
       "image": "images/products/papa.jpg",
+      "image2": "images/products/papa.jpg",
       "categoryId": 3,
       "description": "Papas frescas, versátiles para freír, hervir o preparar al horno."
     },
@@ -181,6 +203,7 @@
       "name": "Aji nomoto",
       "price": 10,
       "image": "images/products/ajinomoto.jpg",
+      "image2": "images/products/ajinomoto.jpg",
       "categoryId": 5,
       "description": "Condimento Aji-No-Moto para realzar el sabor de tus comidas."
     },
@@ -189,6 +212,7 @@
       "name": "Ketchup",
       "price": 30,
       "image": "images/products/ketchup.jpg",
+      "image2": "images/products/ketchup.jpg",
       "categoryId": 5,
       "description": "Salsa ketchup clásica para acompañar tus comidas favoritas."
     },
@@ -197,6 +221,7 @@
       "name": "Locoto",
       "price": 10,
       "image": "images/products/locoto.jpg",
+      "image2": "images/products/locoto.jpg",
       "categoryId": 5,
       "description": "Locoto fresco picante, ideal para salsas tradicionales."
     },
@@ -205,6 +230,7 @@
       "name": "Mayonesa",
       "price": 30,
       "image": "images/products/mayoneza.jpg",
+      "image2": "images/products/mayoneza.jpg",
       "categoryId": 5,
       "description": "Mayonesa cremosa para acompañar sándwiches o ensaladas."
     },
@@ -213,6 +239,7 @@
       "name": "Mostaza",
       "price": 30,
       "image": "images/products/mostaza.jpg",
+      "image2": "images/products/mostaza.jpg",
       "categoryId": 5,
       "description": "Salsa de mostaza con sabor intenso, ideal para carnes y sándwiches."
     },
@@ -221,6 +248,7 @@
       "name": "Pimienta",
       "price": 10,
       "image": "images/products/pimienta.jpg",
+      "image2": "images/products/pimienta.jpg",
       "categoryId": 5,
       "description": "Pimienta negra molida para dar aroma y sabor a tus comidas."
     },
@@ -229,6 +257,7 @@
       "name": "Salsa soya",
       "price": 21,
       "image": "images/products/salsa soya.jpg",
+      "image2": "images/products/salsa soya.jpg",
       "categoryId": 5,
       "description": "Salsa de soya ideal para sazonar comidas orientales."
     },
@@ -237,6 +266,7 @@
       "name": "Afeitador",
       "price": 8,
       "image": "images/products/limpieza/afeitador.jpg",
+      "image2": "images/products/limpieza/afeitador.jpg",
       "categoryId": 4,
       "description": "Afeitador de alta precisión para un afeitado limpio y cómodo."
     },
@@ -245,6 +275,7 @@
       "name": "Ambientador",
       "price": 27,
       "image": "images/products/limpieza/ambientador.jpg",
+      "image2": "images/products/limpieza/ambientador.jpg",
       "categoryId": 4,
       "description": "Ambientador con fragancia fresca para mantener el hogar perfumado."
     },
@@ -253,6 +284,7 @@
       "name": "Cepillo de dientes",
       "price": 8,
       "image": "images/products/limpieza/cepillo.jpg",
+      "image2": "images/products/limpieza/cepillo.jpg",
       "categoryId": 4,
       "description": "Cepillo dental de cerdas suaves para una limpieza completa."
     },
@@ -261,6 +293,7 @@
       "name": "Escoba",
       "price": 33,
       "image": "images/products/limpieza/escoba.jpg",
+      "image2": "images/products/limpieza/escoba.jpg",
       "categoryId": 4,
       "description": "Escoba resistente ideal para limpieza de pisos interiores."
     },
@@ -269,6 +302,7 @@
       "name": "Jaboncillo",
       "price": 21,
       "image": "images/products/limpieza/jaboncillo.jpg",
+      "image2": "images/products/limpieza/jaboncillo.jpg",
       "categoryId": 4,
       "description": "Jaboncillo perfumado para el cuidado diario de la piel."
     },
@@ -277,6 +311,7 @@
       "name": "Lavandina",
       "price": 21,
       "image": "images/products/limpieza/lavandina.jpg",
+      "image2": "images/products/limpieza/lavandina.jpg",
       "categoryId": 4,
       "description": "Lavandina desinfectante para limpieza profunda del hogar."
     },
@@ -285,6 +320,7 @@
       "name": "Deterjente",
       "price": 21,
       "image": "images/products/limpieza/patito.jpg",
+      "image2": "images/products/limpieza/patito.jpg",
       "categoryId": 4,
       "description": "Detergente líquido para ropa con poder limpiador y aroma fresco."
     }
